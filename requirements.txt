@@ -4,3 +4,5 @@ requests
 transformers
 pytube
 matplotlib
+pytorch
+tensorflow
