@@ -8,7 +8,6 @@ from datetime import datetime, timedelta
 
 # Initialize the sentiment analysis pipeline
 pipe = pipeline("text-classification", model="mrm8488/distilroberta-finetuned-financial-news-sentiment-analysis")
-
 # Expanded stock dictionary with names and symbols
 stock_dict = {
     'AAPL': 'Apple',
